@@ -1,0 +1,5 @@
+train in terminal -> use model cfa dataset MVtec capsule
+
+to train: python tools/train.py --config src/anomalib/models/cfa/config.yaml
+    max_epoch = 10 
+    task = segmentation
